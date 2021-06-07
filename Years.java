@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Years {
-	    public static void main(String[] Strings)
+	    public static void main(String[] args)
 	    {
 	        double min = 60 * 24 * 365;
 	        Scanner s = new Scanner(System.in);

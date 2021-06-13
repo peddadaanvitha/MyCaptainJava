@@ -6,10 +6,10 @@ public class GradeCal {
 		if(p>0&&p<40)
 			p=41;
 		switch((int)p/10) 
-    {
+             {
 		case 9: 
-          System.out.println("O");
-		        break;
+                            System.out.println("O");
+		            break;
 		case 8:
 			    System.out.println("A");
 			    break;
@@ -18,13 +18,13 @@ public class GradeCal {
 			    break;
 		case 6: 
 			    System.out.println("C");
-		      break;
+		      	    break;
 		case 5:
 			    System.out.println("D");
-		      break;
+		            break;
 		case 4:
 			    System.out.println("F");
-		      break;
+		            break;
 		default:
 			    System.out.println("Invalid input");
 			    break;
